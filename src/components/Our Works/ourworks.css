@@ -74,8 +74,42 @@ body, html {
 }
 
 .work img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker box shadow on hover */
+    animation: enlarge 0.3s forwards; /* Use keyframes for smooth hover effect */
+}
+
+.work img:hover::before {
+    animation: darken 0.3s forwards; /* Use keyframes for smooth hover effect */
+}
+
+.work img:not(:hover) {
+    animation: shrink 0.3s forwards; /* Use keyframes for smooth return effect */
+}
+
+@keyframes enlarge {
+    0% {
+        transform: scale(1); /* Start at normal size */
+    }
+    100% {
+        transform: scale(1.05); /* Slightly enlarge the image */
+    }
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1.05); /* Start at enlarged size */
+    }
+    100% {
+        transform: scale(1); /* Return to normal size */
+    }
+}
+
+@keyframes darken {
+    0% {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Start at normal shadow */
+    }
+    100% {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker box shadow */
+    }
 }
 
 .work::before {

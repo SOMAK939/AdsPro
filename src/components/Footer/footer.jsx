@@ -61,6 +61,7 @@ const footer = () => {
                 </div>
             </div>
             <hr />
+            <br />
             <div className="sb_footer-below">
                 <div className="sb_footer-copyright">
                     <p>
