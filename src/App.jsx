@@ -1,21 +1,21 @@
-import Navbar from "./components/navbar";
 import React from "react";
-import Hero from "./components/Hero/Hero";
-import Ourworks from "./components/Our Works/ourworks";
-import Footer from "./components/Footer/footer";
 
+import {HashRouter as Router,Routes,Route} from 'react-router-dom' 
+import Home from "./pages/Home";
+import Service from "./pages/Service";
+import ContactUs from "./pages/ContactUs";
 
 function App(){
 
   return(
   <>
-  <Navbar/>
-  <Hero />
-  <Ourworks />
-  <Footer />
- 
-
-  
+ <Router>
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/Service" element={<Service/>}/>
+    <Route path="/ContactUs" element={<ContactUs/>}/>
+  </Routes>
+</Router>  
   </>
   
        
