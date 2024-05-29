@@ -27,12 +27,12 @@ body, html {
     z-index: 100; /* Ensure navbar is above other content */
 }
 
-.navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white; /* Logo text color */
-    /* Placeholder for logo, you can replace this with an img tag if you have a logo */
+.navbar-logo img {
+    width: 60%;
+    height: 40%;
 }
+    
+
 
 .navbar-menu {
     display: flex;
@@ -71,4 +71,25 @@ body, html {
 .navbar-menu .contact button:hover {
     background-color: black; /* Black background on hover */
     color: white; /* Ensure text color changes to white on hover */
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .navbar-logo img {
+        width: 60%;
+        height: auto;
+    }
+
+    .navbar-menu {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .navbar-menu button {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
 }

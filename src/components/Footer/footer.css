@@ -3,7 +3,7 @@
 
 /* Rest of the CSS */
 .section_padding {
-    padding: 4rem 4rem;
+    padding: 2rem;
 }
 .footer {
     background-color: black;
@@ -26,15 +26,17 @@
     margin-bottom: 2rem;
 }
 .sb_footer-links_div{
-    width:150px;
-    margin:1rem;
+    width: 150px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     color: white;
-
-
+    margin-bottom: 1rem; /* Add some bottom margin for spacing */
+    align-items: flex-start; /* Align items to the start of the container */
 }
+
+
+
 a{
     color:rgb(2, 0, 39);
     text-decoration: none;
@@ -45,7 +47,7 @@ a{
     flex-direction: row;
 }
 .socialmedia img {
-    width: 40px; /* Adjust the width of the images */
+    width: 1.7rem; /* Adjust the width of the images */
     margin-right: 20px; /* Add more spacing between the images */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow to make them standout */
     border-radius: 5px; /* Add border radius for a softer look */
