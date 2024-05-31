@@ -90,13 +90,13 @@ body, html {
         transform: scale(1); /* Start at normal size */
     }
     100% {
-        transform: scale(1.05); /* Slightly enlarge the image */
+        transform: scale(2.4); /* Slightly enlarge the image */
     }
 }
 
 @keyframes shrink {
     0% {
-        transform: scale(1.05); /* Start at enlarged size */
+        transform: scale(2.4); /* Start at enlarged size */
     }
     100% {
         transform: scale(1); /* Return to normal size */

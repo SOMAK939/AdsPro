@@ -64,7 +64,7 @@ const footer = () => {
                 <div className="sb_footer-below">
                     <div className="sb_footer-copyright">
                         <p>
-                            @{new Date().getFullYear()} AdsPro.<br></br> All rights  reserved.
+                            @{new Date().getFullYear()} AdsPro.<br></br> <br />All rights  reserved.
                         </p>
                     </div>
                     <div className="sb_footer-below-links">

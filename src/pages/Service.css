@@ -9,26 +9,25 @@ body, html {
 .service-page-2 {
     position: relative;
     padding-top: 60px; /* Adjust this value to match the height of your navbar */
-    min-height:100vh;
+    min-height: 130vh;
     background-image: url('../assets/servicebg2.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
 }
-.service-page-3{
+
+.service-page-3 {
     position: relative;
-    padding-top: 60px; /* Adjust this value to match the height of your navbar */
-    min-height:100vh;
+    padding-top: 60px;/* Adjust this value to match the height of your navbar */
+    min-height: 130vh;
     background-image: url('../assets/servicebg3.jpg'); /* Replace with your image path */
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    
-    
 }
 
 .service-page {
     position: relative;
     padding-top: 60px; /* Adjust this value to match the height of your navbar */
-    min-height:100vh;
+    min-height: 130vh;
     background-image: url('../assets/servicebg.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -53,6 +52,8 @@ body, html {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    padding: 40px;
+
 }
 
 .box {
@@ -72,6 +73,11 @@ body, html {
     min-height: 150px;
     margin-right: 20px;
     border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.img img:hover {
+    transform: scale(2.4); /* Scale up the image on hover */
 }
 
 .text {

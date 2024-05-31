@@ -21,7 +21,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(139, 69, 19, 0.8); /* Transparent brown background */
+    background-color: #8B4513; /* Solid brown background */
     color: white;
     font-family: 'Lato', sans-serif; /* Apply Lato font */
     z-index: 100; /* Ensure navbar is above other content */
@@ -31,8 +31,6 @@ body, html {
     width: 60%;
     height: 40%;
 }
-    
-
 
 .navbar-menu {
     display: flex;
@@ -72,6 +70,7 @@ body, html {
     background-color: black; /* Black background on hover */
     color: white; /* Ensure text color changes to white on hover */
 }
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: row;
