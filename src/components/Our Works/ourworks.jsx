@@ -10,7 +10,7 @@ const ourworks = () => {
   return (
     
     <div className="whole">
-        <h2 className="works-title">Our Works</h2>
+        <h2 className="works-title">Our Workspace</h2>
       <div className="works">
     
         <div className="work">
