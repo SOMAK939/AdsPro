@@ -5,11 +5,7 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import ContactUs from "./pages/ContactUs";
 import Gallery from "./pages/Gallery";
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 37984f62b84d531bce4965ac5268148c11804583
 
 function App(){
 
@@ -21,11 +17,7 @@ function App(){
     <Route path="/Service" element={<Service/>}/>
     <Route path="/ContactUs" element={<ContactUs/>}/>
     <Route path="/Gallery" element={<Gallery/>}/>
-<<<<<<< HEAD
-  
-   
-=======
->>>>>>> 37984f62b84d531bce4965ac5268148c11804583
+
   </Routes>
 </Router>  
   </>
