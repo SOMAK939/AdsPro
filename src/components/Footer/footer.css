@@ -18,13 +18,14 @@
 .sb_footer-links{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
-    text-align: left;
+    text-align:center;
     margin-bottom: 2rem;
+    margin-left:34rem;
 }
+
 .sb_footer-links_div{
     width: 150px;
     display: flex;

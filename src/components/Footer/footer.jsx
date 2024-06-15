@@ -8,42 +8,8 @@ const footer = () => {
         <div className='footer'>
             <div className="sb_footer section_padding">
                 <div className="sb_footer-links">
-                    <div className='sb_footer-links_div'>
-                        <h4>For Business</h4>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                    </div>
-                    <div className="sb_footer-links_div">
-                        <h4>Resources</h4>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                    </div>
-                    <div className="sb_footer-links_div">
-                        <h4>Partner</h4>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/employer" target="_blank" rel="noopener noreferrer">
-                            <p>Employer</p>
-                        </a>
-                    </div>
+                   
+                   
                     <div className="sb_footer-links_div">
                         <h4>Follow Us On</h4>
                         <div className='socialmedia'>
